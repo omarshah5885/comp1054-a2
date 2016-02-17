@@ -1,0 +1,61 @@
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.logo{
+	border: 10px solid #DFBB1E;
+	border-style: inset;
+}
+
+
+
+main {
+	display: flex;
+	background-image: url("images/gold-foil.jpg");
+	background-size: cover;
+}
+
+section {
+	margin: 2%;
+}
+
+h2 {
+	font-family: 'Open Sans', 'Source Sans Pro', sans-serif;
+	 text-shadow: 2px 2px 1px #efefef; 
+}
+
+h2, p, .ferreroFacts  {
+	font-weight: bold;
+	background: #DFBB1E;
+}
+
+
+.secondary ul {
+	background: #5a3d1b;
+	margin-top: 19%;
+	font-size: 120%;
+	opacity: .9;
+}
+
+
+a:visited {
+		color: #DFBB1E;
+}
+
+a:link {
+		color: #f5f5f5;
+}
+
+footer {
+	background: #5a3d1b; 
+	color: #f5f5f5;
+}
+
+.nutrition {
+	padding-top: 2%;
+}
+
+span {
+	margin: 0 2%;
+}
